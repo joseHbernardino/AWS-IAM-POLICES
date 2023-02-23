@@ -2,7 +2,7 @@
 
 1. Abaixo está uma política atualizada com os comentários:
 
-```:bash
+```json
 {
     "Version": "2012-10-17",
     "Statement": [
