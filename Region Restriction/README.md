@@ -3,7 +3,7 @@
 1. Código comentado:
 
 ```:bash
-    {
+{
     "Version": "2012-10-17",
     "Statement": [
         {
