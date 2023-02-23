@@ -1,6 +1,6 @@
 # Policy Region Restriction
 
-1. Código comentado:
+1. Abaixo está uma política atualizada com os comentários:
 
 ```:bash
 {
@@ -24,3 +24,5 @@
     ]
 }
 ```
+
+A política tem uma versão específica, definida no campo **"Version"**. O campo **"Statement"** define a regra em si, contendo um identificador para a regra **("Sid")**, o efeito que a regra terá **("Deny")**, a lista de ações que serão negadas **("Action")** e a lista de recursos que serão negados **("Resource")**. Além disso, há uma condição definida na seção **"Condition"** que permite que a política seja aplicada apenas para as regiões especificadas.
