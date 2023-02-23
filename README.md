@@ -9,3 +9,5 @@ Para utilizar uma OU na AWS, você precisa criar uma hierarquia de OU que reflet
 Por exemplo, se você tiver uma OU para seus recursos de produção e outra para seus recursos de teste, poderá aplicar políticas diferentes para cada OU. Além disso, se você tiver várias contas da AWS para diferentes equipes ou projetos, pode agrupá-las em uma OU correspondente a cada equipe ou projeto, facilitando a gestão e o acesso.
 
 Em resumo, o uso de OU na AWS permite que você gerencie de forma mais eficiente seus recursos e contas em uma hierarquia organizacional, definindo políticas e permissões de acesso de forma consistente e centralizada. Isso ajuda a garantir a segurança e conformidade em toda a sua organização.
+
+![image](OU-AWS.png)
