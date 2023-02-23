@@ -1,7 +1,8 @@
 # Policy Region Restriction
 
+1. Código comentado:
 
-    ```:bash
+```:bash
     {
     "Version": "2012-10-17",
     "Statement": [
@@ -22,5 +23,4 @@
         }
     ]
 }
-
-    ```
+```
