@@ -12,7 +12,7 @@ Em resumo, o uso de OU na AWS permite que você gerencie de forma mais eficiente
 
 ![image](OU-AWS.png)
 
-## Polices IAM
+## IAM Policy
 
 As políticas IAM (Identity and Access Management) são usadas na AWS para controlar o acesso aos recursos e serviços. As políticas IAM definem permissões para usuários, grupos e funções dentro de uma conta da AWS. Com as políticas IAM, você pode conceder ou negar acesso a recursos e serviços específicos.
 
