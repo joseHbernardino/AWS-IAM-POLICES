@@ -39,6 +39,7 @@ Essa política pode ser utilizada para garantir que apenas usuários ou funçõe
 
 É importante ressaltar que essa política deve ser testada com cuidado antes de ser aplicada em ambientes de produção, para evitar que ela bloqueie o acesso necessário aos usuários e serviços.
 
+##
 ## Permission for 3 users
 
 ```:bash
@@ -77,7 +78,7 @@ Isso garante que apenas os usuários especificados possam realizar essas ações
 
 ## 
 ## Permission For 3 users - 2 
-##
+
 
 ```:bash
 {
