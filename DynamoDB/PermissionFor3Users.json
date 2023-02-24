@@ -1,0 +1,25 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "AllowDynamoDBTableActions",
+            "Effect": "Allow",
+            "Action": [
+                "dynamodb:CreateTable",
+                "dynamodb:ListTables",
+                "dynamodb:DeleteTable"
+            ],
+            "Resource": "arn:aws:dynamodb:*:*:table/*",
+            "Condition": {
+                "StringEquals": {
+                    "aws:username": [
+                        "username1",
+                        "username2",
+                        "username3"
+                    ]
+                }
+            }
+        }
+    ]
+}
+
