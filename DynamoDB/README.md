@@ -75,8 +75,9 @@ A política permite apenas as ações de criação e listagem de tabelas no Dyna
 
 Isso garante que apenas os usuários especificados possam realizar essas ações em todas as tabelas do DynamoDB na conta AWS, adicionando uma camada de segurança e controle para o gerenciamento de recursos.
 
-
+## 
 ## Permission For 3 users - 2 
+##
 
 ```:bash
 {
