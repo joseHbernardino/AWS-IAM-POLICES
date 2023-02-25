@@ -29,16 +29,15 @@
 ```
 
 
-## 
-- Premissa
+### Premissa
 
-A premissa desse código é negar o acesso a ações relacionadas ao Amazon DynamoDB, como criar tabelas, excluir tabelas, atualizar tabelas, listar tabelas, aplicar ou remover tags, e obter informações sobre as tags aplicadas.
+- A premissa desse código é negar o acesso a ações relacionadas ao Amazon DynamoDB, como criar tabelas, excluir tabelas, atualizar tabelas, listar tabelas, aplicar ou remover tags, e obter informações sobre as tags aplicadas.
 
-A política nega todas as ações relacionadas ao DynamoDB, impedindo que os usuários, funções ou serviços realizem qualquer operação nesse serviço. Além disso, a política também nega o acesso a todos os recursos do DynamoDB.
+- A política nega todas as ações relacionadas ao DynamoDB, impedindo que os usuários, funções ou serviços realizem qualquer operação nesse serviço. Além disso, a política também nega o acesso a todos os recursos do DynamoDB.
 
-Essa política pode ser utilizada para garantir que apenas usuários ou funções autorizados possam acessar o DynamoDB e realizar as operações permitidas. Por exemplo, uma empresa pode aplicar essa política a uma função específica, permitindo que ela acesse somente algumas tabelas do DynamoDB e realizando apenas as operações permitidas.
+- Essa política pode ser utilizada para garantir que apenas usuários ou funções autorizados possam acessar o DynamoDB e realizar as operações permitidas. Por exemplo, uma empresa pode aplicar essa política a uma função específica, permitindo que ela acesse somente algumas tabelas do DynamoDB e realizando apenas as operações permitidas.
 
-É importante ressaltar que essa política deve ser testada com cuidado antes de ser aplicada em ambientes de produção, para evitar que ela bloqueie o acesso necessário aos usuários e serviços.
+- É importante ressaltar que essa política deve ser testada com cuidado antes de ser aplicada em ambientes de produção, para evitar que ela bloqueie o acesso necessário aos usuários e serviços.
 
 ##
 ## Permission for 3 users
@@ -71,11 +70,11 @@ Essa política pode ser utilizada para garantir que apenas usuários ou funçõe
 
 
 ```
-## Premissa
+### Premissa
 
-A política permite apenas as ações de criação e listagem de tabelas no DynamoDB, definindo a ação como "permitir" (Allow), e especifica as contas de usuário que têm permissão para realizar essas ações por meio da cláusula "Condition".
+- A política permite apenas as ações de criação e listagem de tabelas no DynamoDB, definindo a ação como "permitir" (Allow), e especifica as contas de usuário que têm permissão para realizar essas ações por meio da cláusula "Condition".
 
-Isso garante que apenas os usuários especificados possam realizar essas ações em todas as tabelas do DynamoDB na conta AWS, adicionando uma camada de segurança e controle para o gerenciamento de recursos.
+- Isso garante que apenas os usuários especificados possam realizar essas ações em todas as tabelas do DynamoDB na conta AWS, adicionando uma camada de segurança e controle para o gerenciamento de recursos.
 
 ## 
 ## Permission For 3 users - 2 
@@ -122,8 +121,8 @@ Isso garante que apenas os usuários especificados possam realizar essas ações
 
 ```
 
-## Premissa
+### Premissa
 
-A política permite apenas as ações de criação e listagem de tabelas no DynamoDB para todos os usuários especificados na cláusula "Condition" da primeira declaração (statement). Foi adicionada uma segunda declaração (statement) para permitir apenas o usuário 2 realizar a ação de exclusão de tabelas no DynamoDB.
+- A política permite apenas as ações de criação e listagem de tabelas no DynamoDB para todos os usuários especificados na cláusula "Condition" da primeira declaração (statement). Foi adicionada uma segunda declaração (statement) para permitir apenas o usuário 2 realizar a ação de exclusão de tabelas no DynamoDB.
 
-Com essa atualização, a política garante que apenas o usuário 2 possa realizar a ação de exclusão de tabelas no DynamoDB na conta AWS, adicionando uma camada de segurança e controle para o gerenciamento de recursos.
+- Com essa atualização, a política garante que apenas o usuário 2 possa realizar a ação de exclusão de tabelas no DynamoDB na conta AWS, adicionando uma camada de segurança e controle para o gerenciamento de recursos.
