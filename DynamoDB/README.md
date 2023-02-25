@@ -1,7 +1,7 @@
-# Policy DynamoDB
+## Policy DynamoDB
 
 
-## PolicyDynamoDB
+
 
 1. Abaixo está uma política atualizada com os comentários:
 
@@ -39,7 +39,7 @@
 
 - É importante ressaltar que essa política deve ser testada com cuidado antes de ser aplicada em ambientes de produção, para evitar que ela bloqueie o acesso necessário aos usuários e serviços.
 
-##
+
 ## Permission for 3 users
 
 ```:bash
@@ -76,7 +76,7 @@
 
 - Isso garante que apenas os usuários especificados possam realizar essas ações em todas as tabelas do DynamoDB na conta AWS, adicionando uma camada de segurança e controle para o gerenciamento de recursos.
 
-## 
+ 
 ## Permission For 3 users - 2 
 
 
