@@ -29,7 +29,8 @@
 ```
 
 
-## Premissa
+## 
+- Premissa
 
 A premissa desse código é negar o acesso a ações relacionadas ao Amazon DynamoDB, como criar tabelas, excluir tabelas, atualizar tabelas, listar tabelas, aplicar ou remover tags, e obter informações sobre as tags aplicadas.
 
